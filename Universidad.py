@@ -5,3 +5,7 @@ class Universidad:
     
     def agregarAlumno(self, alumno):
         self.alumno.append(alumno)
+    
+    def listarAlumnos(self):
+        for alumno in self.alumnos:
+            print(alumno)
