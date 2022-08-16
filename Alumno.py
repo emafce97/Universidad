@@ -4,5 +4,8 @@ class Alumno:
         self.nombre = nombre
         self.legajo = legajo
     
+    def getLegajo(self):
+        return self.legajo
+    
     def __str__(self):
         return f"El alumno {self.nombre}, tiene el legajo {self.legajo}"
